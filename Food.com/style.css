@@ -68,7 +68,7 @@ h1 {
     margin-top: 30px;
 }
 
-.btn {
+.button {
     border: 1px solid #e67e22;
     padding: 10px 30px;
     color: #e67e22;
@@ -77,14 +77,55 @@ h1 {
     margin-right: 15px;
 }
 
-.btn-half {
+.button-half {
     background-color: #e67e22;
     color: white;
 }
 
-.btn-full:hover {
+.button-half:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: #e67e22;
+}
+
+.button-full:hover {
     background-color: #e67e22;
     color: white;
     transition:all 0.2s ease-in;
+}
+
+/* Section Features */
+.copy {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.features h3 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.features h3:after {
+    width: 100px;
+    height: 2px;
+    background-color: #e67e22;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.arranging {
+    text-align: justify;
+}
+
+.features i {
+    font-size: 40px;
+    color: #e67e22;
+    margin-left: 40%;
+}
+
+.features h4 {
+    text-align: center;
 }
 
