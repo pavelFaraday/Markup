@@ -50,6 +50,7 @@ header {
     height: 100vh;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 /* hero text */
 .hero {
@@ -127,5 +128,39 @@ h1 {
 
 .features h4 {
     text-align: center;
+}
+
+
+/* img show-case */
+.meal-showcase {
+    width: 100%;
+    list-style: none;
+}
+
+.meal-showcase li {
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: all 0.5s;
+}
+
+.meal-photo img:hover {
+    transform: scale(1.05);
+}
+
+.meal {
+    margin-top: 60px;
 }
 
