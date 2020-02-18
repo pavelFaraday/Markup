@@ -271,3 +271,22 @@ h1 {
 }
 
 
+
+/* section 6) Validation Form */
+.form h3 {
+    margin-top: 50px;
+}
+
+.form .btn-block {
+    background-color: #e67e22;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.gap {
+    margin-top: 40px;
+}
+
+
