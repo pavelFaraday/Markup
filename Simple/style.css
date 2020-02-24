@@ -152,6 +152,7 @@ header nav ul li a {
     font-family: 'Catamaran';
     font-size: 16px;
     color: #111;
+    text-transform: uppercase;
 }
 
 header .header-cases {
@@ -160,11 +161,35 @@ header .header-cases {
 
 @media only screen and (min-width: 1000px) {
     header .header-brand {
-        margin: 0;
+        margin: 31px 0;
         text-align: left;
-        padding: 20px 20px 20px 0px;
+        line-height: 38px;
+        padding: 0 20px 0 40px;
         border-right: 3px solid #111;
         float:left;
+    }
+
+    header nav ul {
+        margin: 20px 0 0 20px;
+        float:left;
+    }
+    
+    header nav ul li a {
+        line-height: 60px;
+    }
+
+    header .header-cases {
+        display: block;
+        font-family: 'Catamaran';
+        font-size: 16px;
+        color: #111;
+        text-transform: uppercase;
+        float: right;
+        line-height: 38px;
+        border: 1px solid #111;
+        margin-top: 30px;
+        margin-right: 40px;
+        padding: 0 20px;
     }
 }
 
@@ -225,6 +250,46 @@ header .header-cases {
     text-transform: uppercase;
 }
 
+@media only screen and (min-width: 1000px) {
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    
+    .index-banner {
+        height: 450px;
+    }
+
+    .index-banner h1 {
+       display: block;
+       width: 560px;
+       margin: 0 auto;
+    }
+
+    .index-links {
+        overflow: hidden;
+    }
+
+    .index-links div {
+        margin: 20px 10px 0;
+        height: 220px;
+        background-color: #f2f2f2;
+        float: left;
+    }
+
+    .index-boxlink-square {
+        width: calc(25% - 20px) !important;
+    }
+
+    .index-boxlink-rectangle {
+        width: calc(50% - 20px) !important;
+    }
+
+    .index-links div h3 {
+        line-height: 230px;
+    }
+}
+
 /* 3) footer */
 
 footer {
@@ -266,4 +331,23 @@ footer ul li a {
     font-size: 50px;
     margin-bottom: 10px;
     color: antiquewhite;
+}
+
+
+@media only screen and (min-width: 1000px) { 
+    .footer-links-cases {
+        display: block;
+    }
+
+    footer ul {
+        padding-right: 40px;
+    }
+
+    footer ul li p {
+        font-family: 'Catamaran';
+        font-size: 24px;
+        color: #fff;
+        line-height: 40px;
+        text-transform: uppercase;
+    }
 }
