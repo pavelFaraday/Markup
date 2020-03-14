@@ -2,6 +2,49 @@
 /* font-family: 'Roboto Mono', monospace; */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700i&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto Mono', monospace;
 }
+
+:root {
+    --light:#fff;
+    --dark:#181b24;
+    --grey:#899495;
+    --orange:#fc5130;
+    --SectionGrey:#f2f2f2;
+}
+
+.header {
+min-height: 100vh;
+background: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1)),url(img/header3.jpg)center/cover fixed no-repeat;
+/* background-position: center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat; */
+display: flex;
+flex-direction: column;
+}
+
+/* nav */
+.nav {
+    background-color: var(--light);
+}
+/* End of nav */
+
+/* banner */
+.banner {
+/* as a flex child */
+flex: 1 0 auto;
+}
+/* 1:29:43 */
+/* End of banner */
+
+
+
+
