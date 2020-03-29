@@ -474,6 +474,23 @@ body {
     cursor: pointer;
 }
 
+.footer {
+    background: var(--dark);
+    padding: 3rem 0;
+}
 
+.footer_icons {
+    display: flex;
+    justify-content: space-around;
+}
 
+.footer_single-icon {
+    font-size: 2rem;
+    color: var(--light);
+    transition: all 1s ease;
+}
+
+.footer_single-icon:hover {
+    color: var(--grey);
+}
 /* END Contact Section */
