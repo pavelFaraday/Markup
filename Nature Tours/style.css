@@ -164,11 +164,16 @@ font-size: 1.4rem;
 .title-heading p {
     text-transform: lowercase;
 }
+
+/* important for GRID ! */
 .activities-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 2.5rem;
 }
+/* -- important for GRID ! -- */
+
+/* -- important for POSITIONING(absolute-relative) relationships -- */
 .activities-grid-item {
     height: 40rem;
     padding: 5rem;
@@ -191,6 +196,8 @@ font-size: 1.4rem;
     background-image: linear-gradient(135deg, rgba(49,24,131,0.9) 0%, rgba(72,56,149,0.8) 100%);
     z-index: -1;
 }
+/* --important for POSITIONING(absolute-relative) relationships-- */
+
 .star-gazing {
     background: url('img/stars.jpg')center no-repeat;
 }
