@@ -225,6 +225,7 @@ font-size: 1.4rem;
     background: linear-gradient(135deg, rgba(49,24,131,0.9) 0%, rgba(72,56,149,0.8) 100%), url(img/testimonials-bg.jpg) center no-repeat fixed;
     background-size: cover;
     position: relative;
+    margin-bottom: 3rem;
 }
 .testimonials::before {
     content: "";
@@ -269,3 +270,25 @@ font-size: 1.4rem;
 
 
 /* Adventure section */
+.adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+    margin-bottom: 2rem;
+}
+.adventure-grid-item p {
+    color: rgba(0,0,0,.7);
+}
+.begin-adventure a {
+    margin-bottom: 3rem;
+}
+footer {
+    padding: 2.5rem 0;
+    background-color: #d7d4ed;
+    text-align: center;
+    color: rgba(0,0,0,.7);
+}
+
+
+/* @Media Quaries */
+
